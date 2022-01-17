@@ -14,7 +14,7 @@ Frontend building and deploying steps:
 Backend building and deploying steps:
 1. In cmd open the folder where the Backend code is present.
 2. run the command as " gradle build"
-3. A war file would be created.
+3. A war file would be created in build/libs/.war directory.
 4. paste the war file in webapps folder of tomcat server 
    or you can just add that file from the tomcat browser also.
 5. open bin folder of tomcat in cmd.
