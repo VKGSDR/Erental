@@ -1,0 +1,7 @@
+com.abc.vehiclerental
+com.abc.vehiclerental.controller
+com.abc.vehiclerental.entity
+com.abc.vehiclerental.exception
+com.abc.vehiclerental.payload
+com.abc.vehiclerental.repository
+com.abc.vehiclerental.service
