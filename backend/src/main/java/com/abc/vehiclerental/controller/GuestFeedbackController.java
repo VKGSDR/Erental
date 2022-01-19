@@ -17,7 +17,7 @@ import com.abc.vehiclerental.payload.FeedbackPayload;
 import com.abc.vehiclerental.service.GuestFeedbackService;
 
 @RestController
-@CrossOrigin(origins="http://localhost:808/")
+@CrossOrigin(origins="http://localhost:8080/")
 @RequestMapping("/guestfeedback")
 public class GuestFeedbackController {
 
