@@ -22,7 +22,7 @@ import com.abc.vehiclerental.payload.PaymentPayload;
 import com.abc.vehiclerental.service.BookingService;
 
 @RestController
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="http://localhost:8080/")
 @RequestMapping("/bookdetails")
 public class BookingController {
 
