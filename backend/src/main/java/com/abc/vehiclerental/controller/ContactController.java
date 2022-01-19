@@ -21,7 +21,7 @@ import com.abc.vehiclerental.entity.ContactUsDetails;
 import com.abc.vehiclerental.service.ContactUsService;
 
 @RestController
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="http://localhost:8080/")
 @RequestMapping("/contactdetails")
 public class ContactController {
 
