@@ -20,7 +20,7 @@ import com.abc.vehiclerental.payload.ConfirmPaymentPayload;
 import com.abc.vehiclerental.service.PaymentService;
 
 @RestController
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="http://localhost:8080/")
 @RequestMapping("/paymentdetails")
 public class PaymentController {
 
