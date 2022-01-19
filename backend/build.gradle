@@ -11,6 +11,11 @@ sourceCompatibility = '1.8'
 
 repositories {
 	mavenCentral()
+	processResources {
+from ('frontend/build') {
+into 'public'
+}
+}
 }
 
 dependencies {

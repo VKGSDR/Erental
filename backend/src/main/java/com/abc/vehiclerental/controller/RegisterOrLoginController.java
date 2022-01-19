@@ -24,7 +24,7 @@ import com.abc.vehiclerental.payload.LoginPayLoad;
 import com.abc.vehiclerental.service.UserService;
 
 //@WebServlet("/caruser")
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="http://localhost:8080/")
 @RestController
 @RequestMapping("/user")
 public class RegisterOrLoginController /*extends HttpServlet*/ {

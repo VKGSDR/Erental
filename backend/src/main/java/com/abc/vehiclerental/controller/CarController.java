@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.abc.vehiclerental.entity.CarDetails;
 import com.abc.vehiclerental.service.CarService;
 
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="http://localhost:8080")
 @RestController
 @RequestMapping("/cardetails")
 public class CarController {

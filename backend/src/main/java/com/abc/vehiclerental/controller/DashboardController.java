@@ -12,7 +12,7 @@ import com.abc.vehiclerental.payload.DashboardPayload;
 import com.abc.vehiclerental.service.DashboardService;
 
 @RestController
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="http://localhost:8080/")
 @RequestMapping("/dashboarddetails")
 public class DashboardController {
 
