@@ -24,7 +24,7 @@ import com.abc.vehiclerental.payload.LoginPayLoad;
 import com.abc.vehiclerental.service.UserService;
 
 //@WebServlet("/caruser")
-@CrossOrigin(origins="http://localhost:8080/") //3000 for starting default react application
+@CrossOrigin(origins="http://localhost:8081/") //3000 for starting default react application
 @RestController
 @RequestMapping("/user")
 public class RegisterOrLoginController /*extends HttpServlet*/ {

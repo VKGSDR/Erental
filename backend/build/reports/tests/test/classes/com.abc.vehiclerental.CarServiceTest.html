@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.122s</div>
+<div class="counter">0.123s</div>
 <p>duration</p>
 </div>
 </td>
@@ -89,7 +89,7 @@
 </tr>
 <tr>
 <td class="success">testGetAllCarsByAdmin()</td>
-<td class="success">0.043s</td>
+<td class="success">0.050s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@
 </tr>
 <tr>
 <td class="success">testSearchCarByBrand()</td>
-<td class="success">0.006s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -114,12 +114,12 @@
 </tr>
 <tr>
 <td class="success">testSearchCarByColor()</td>
-<td class="success">0.004s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSearchCarByColorThrowingException()</td>
-<td class="success">0.008s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -129,12 +129,12 @@
 </tr>
 <tr>
 <td class="success">testSearchCarByPrice()</td>
-<td class="success">0.003s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testSearchCarByPriceThrowingException()</td>
-<td class="success">0.005s</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -144,12 +144,12 @@
 </tr>
 <tr>
 <td class="success">testSearchCarByTypeThrowingException()</td>
-<td class="success">0.008s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testUpdateCar()</td>
-<td class="success">0.013s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -157,22 +157,22 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>13:31:52.387 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-13:31:52.408 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-13:31:52.458 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.abc.vehiclerental.CarServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-13:31:52.474 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.abc.vehiclerental.CarServiceTest], using SpringBootContextLoader
-13:31:52.479 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.abc.vehiclerental.CarServiceTest]: class path resource [com/abc/vehiclerental/CarServiceTest-context.xml] does not exist
-13:31:52.480 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.abc.vehiclerental.CarServiceTest]: class path resource [com/abc/vehiclerental/CarServiceTestContext.groovy] does not exist
-13:31:52.480 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.abc.vehiclerental.CarServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-13:31:52.481 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.abc.vehiclerental.CarServiceTest]: CarServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-13:31:52.538 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.abc.vehiclerental.CarServiceTest]
-13:31:52.612 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\SHALMV\OneDrive - Capgemini\Documents\DAC\DAC\backend\build\classes\java\main\com\abc\vehiclerental\VehiclerentalApplication.class]
-13:31:52.615 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.abc.vehiclerental.VehiclerentalApplication for test class com.abc.vehiclerental.CarServiceTest
-13:31:52.784 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.abc.vehiclerental.CarServiceTest]: using defaults.
-13:31:52.785 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-13:31:52.819 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@62e70ea3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3efe7086, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@675d8c96, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@741b3bc3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2ed3b1f5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63648ee9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68d6972f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@45be7cd5, org.springframework.test.context.event.EventPublishingTestExecutionListener@7651218e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3185fa6b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6d366c9b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b58ed3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@24faea88, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3a320ade, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64beebb7]
-13:31:52.823 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@592e843a testClass = CarServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1d1f7216 testClass = CarServiceTest, locations = '{}', classes = '{class com.abc.vehiclerental.VehiclerentalApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@41709512, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6155d082, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2dcd168a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7803bfd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5143c662, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@be35cd9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-13:31:52.869 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+<pre>09:28:10.358 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+09:28:10.369 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+09:28:10.398 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.abc.vehiclerental.CarServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+09:28:10.411 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.abc.vehiclerental.CarServiceTest], using SpringBootContextLoader
+09:28:10.414 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.abc.vehiclerental.CarServiceTest]: class path resource [com/abc/vehiclerental/CarServiceTest-context.xml] does not exist
+09:28:10.415 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.abc.vehiclerental.CarServiceTest]: class path resource [com/abc/vehiclerental/CarServiceTestContext.groovy] does not exist
+09:28:10.415 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.abc.vehiclerental.CarServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:28:10.416 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.abc.vehiclerental.CarServiceTest]: CarServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:28:10.471 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.abc.vehiclerental.CarServiceTest]
+09:28:10.532 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Vijay Kumar Gupta\DevOps Practice\Java Application\DAC\backend\build\classes\java\main\com\abc\vehiclerental\VehiclerentalApplication.class]
+09:28:10.534 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.abc.vehiclerental.VehiclerentalApplication for test class com.abc.vehiclerental.CarServiceTest
+09:28:10.637 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.abc.vehiclerental.CarServiceTest]: using defaults.
+09:28:10.638 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+09:28:10.661 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@62e70ea3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3efe7086, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@675d8c96, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@741b3bc3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2ed3b1f5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63648ee9, org.springframework.test.context.transaction.TransactionalTestExecutionListener@68d6972f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@45be7cd5, org.springframework.test.context.event.EventPublishingTestExecutionListener@7651218e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3185fa6b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6d366c9b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b58ed3c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@24faea88, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3a320ade, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64beebb7]
+09:28:10.667 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@592e843a testClass = CarServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1d1f7216 testClass = CarServiceTest, locations = '{}', classes = '{class com.abc.vehiclerental.VehiclerentalApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@41709512, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6155d082, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2dcd168a, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7803bfd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5143c662, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@be35cd9], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+09:28:10.711 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -182,20 +182,20 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.5.4)
 
-2022-01-19 13:31:53.255  INFO 11536 --- [    Test worker] com.abc.vehiclerental.CarServiceTest     : Starting CarServiceTest using Java 16 on DIN07006717 with PID 11536 (started by shalmv in C:\Users\SHALMV\OneDrive - Capgemini\Documents\DAC\DAC\backend)
-2022-01-19 13:31:53.259  INFO 11536 --- [    Test worker] com.abc.vehiclerental.CarServiceTest     : No active profile set, falling back to default profiles: default
-2022-01-19 13:31:54.246  INFO 11536 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-19 13:31:54.382  INFO 11536 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 8 JPA repository interfaces.
-2022-01-19 13:31:55.132  INFO 11536 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-19 13:31:55.215  INFO 11536 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2022-01-19 13:31:55.414  INFO 11536 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-19 13:31:55.580  INFO 11536 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-01-19 13:31:56.479  INFO 11536 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-01-19 13:31:56.532  INFO 11536 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-2022-01-19 13:31:58.531  INFO 11536 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-19 13:31:58.544  INFO 11536 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-19 13:31:59.865  WARN 11536 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-01-19 13:32:01.385  INFO 11536 --- [    Test worker] com.abc.vehiclerental.CarServiceTest     : Started CarServiceTest in 8.507 seconds (JVM running for 10.339)
+2022-02-15 09:28:11.011  INFO 1088 --- [    Test worker] com.abc.vehiclerental.CarServiceTest     : Starting CarServiceTest using Java 16 on LIN80032146 with PID 1088 (started by vgupta66 in C:\Vijay Kumar Gupta\DevOps Practice\Java Application\DAC\backend)
+2022-02-15 09:28:11.015  INFO 1088 --- [    Test worker] com.abc.vehiclerental.CarServiceTest     : No active profile set, falling back to default profiles: default
+2022-02-15 09:28:11.790  INFO 1088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-15 09:28:11.899  INFO 1088 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 8 JPA repository interfaces.
+2022-02-15 09:28:12.481  INFO 1088 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-15 09:28:12.552  INFO 1088 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-02-15 09:28:12.703  INFO 1088 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-15 09:28:12.845  INFO 1088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-15 09:28:13.220  INFO 1088 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-15 09:28:13.256  INFO 1088 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-02-15 09:28:14.366  INFO 1088 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-15 09:28:14.377  INFO 1088 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-15 09:28:15.476  WARN 1088 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-15 09:28:16.146  INFO 1088 --- [    Test worker] com.abc.vehiclerental.CarServiceTest     : Started CarServiceTest in 5.424 seconds (JVM running for 6.591)
 </pre>
 </span>
 </div>
@@ -207,7 +207,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.2</a> at 19-Jan-2022, 1:32:02 pm</p>
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 15-Feb-2022, 9:28:16 am</p>
 </div>
 </div>
 </body>
